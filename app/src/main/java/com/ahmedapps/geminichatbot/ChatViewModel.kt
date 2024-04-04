@@ -10,9 +10,7 @@ import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 
-/**
- * @author Ahmed Guedmioui
- */
+
 class ChatViewModel : ViewModel() {
 
     private val _chatState = MutableStateFlow(ChatState())

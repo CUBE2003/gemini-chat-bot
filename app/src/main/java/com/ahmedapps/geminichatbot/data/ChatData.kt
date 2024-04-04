@@ -7,12 +7,10 @@ import com.google.ai.client.generativeai.type.content
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 
-/**
- * @author Ahmed Guedmioui
- */
+
 object ChatData {
 
-    val api_key = "AIzaSyBtPQG2TNshIZGkNe3DjTfMRdXq8gF1ju0"
+    val api_key = "AIzaSyDJwlQpid7Yh5nqq6fyge-sMacK4G8uf28"
 
     suspend fun getResponse(prompt: String): Chat {
         val generativeModel = GenerativeModel(
